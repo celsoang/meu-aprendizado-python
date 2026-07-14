@@ -1,0 +1,7 @@
+nome = input('Digite seu nome: ')
+print(nome.upper())
+print(nome.lower())
+nome0 = nome.replace(' ', '')
+print(f'A quantidade de letra é {len(nome0)}. ')
+nome1 = nome.split()
+print(f'A quantidade de letra no primeiro nome é {len(nome1[0])}. ')

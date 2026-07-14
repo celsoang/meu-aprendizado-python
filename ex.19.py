@@ -1,0 +1,33 @@
+print('Como escolher nomes aleatórios')
+import random
+
+a = str(input('Nome: '))
+b = str(input('Nome: '))
+c = str(input('Nome: '))
+d = str(input('Nome: '))
+
+lista = [a, b, c, d]
+
+escolhido = random.choice(lista)
+
+print('O escolhido será: {}'.format(escolhido))
+
+#Correção
+import random
+n1 = str(input('Primeiro aluno: '))
+n2 = str(input('Segundo aluno: '))
+n3 = str(input('Terceiro aluno: '))
+n4 = str(input('Quarto aluno: '))
+lista = [n1, n2, n3, n4]
+escolhido = random.choice(lista)
+print('O aluno escolhido foi {}'.format(escolhido))
+
+#Outra maneira de resolver
+from random import choice
+n1 = str(input('Primeiro aluno: '))
+n2 = str(input('Segundo aluno: '))
+n3 = str(input('Terceiro aluno: '))
+n4 = str(input('Quarto aluno: '))
+lista = [n1, n2, n3, n4]
+escolhido = choice(lista)
+print('O aluno escolhido foi {}'.format(escolhido))
