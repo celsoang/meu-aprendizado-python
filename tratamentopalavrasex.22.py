@@ -1,3 +1,4 @@
+print('Tratamento de palavras com upper lower replace e split')
 nome = input('Digite seu nome: ')
 print(nome.upper())
 print(nome.lower())

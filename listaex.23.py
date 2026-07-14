@@ -1,3 +1,4 @@
+print('Manipulando caracteres')
 numero = input('Digite um nome entre 0 e 9999: ')
 print(f'Unidade: {numero[0]}')
 print(f'Dezena : {numero[1]}')
