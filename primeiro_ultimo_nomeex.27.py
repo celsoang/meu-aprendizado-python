@@ -1,0 +1,5 @@
+print('Descobrindo primeiro e último nome. ')
+nome = input('Digite seu nome: ')
+nome1 = nome.split()
+print(f'Primeiro nome: {nome1[0]} ')
+print(f'Último nome: {nome1[-1]} ')
