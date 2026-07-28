@@ -12,7 +12,6 @@ while True:
     print('Outra maneira de fazer: ')
     cidade1 = input('O nome da cidade começa com Santos? ')
 
-
     if not cidade1:
         print('Erro: Você não digitou nada tente novamente. ')
         continue
@@ -29,8 +28,6 @@ while True:
         print('Começa com santos. ')
     else:
         print('Não começa con santos. ')
-
-
     break
 
 
