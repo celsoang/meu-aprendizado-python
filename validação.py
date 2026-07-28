@@ -30,11 +30,11 @@ def gerar_senha():
     global senha_salva
 
     if senha_salva != '':
-        print('Erro! Você já possui uma senha use a opçãp 2 para editar: ')
+        print('Erro! Você já possui uma senha use a opção 2 para editar: ')
         return
 
     while True:
-        senha = (input('Digite sua senha: (apenas numeros) '))
+        senha = (input('Digite sua senha: (apenas números) '))
 
         if not senha:
             print('Erro! Você não digitou nada, tente novamente. ')
