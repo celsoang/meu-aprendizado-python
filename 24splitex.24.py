@@ -1,4 +1,4 @@
-def main ():
+def main():
     while True:
         print('-----SEJA BEM VINDO-----')
         print('1. para testar a primeira maneira. ')
